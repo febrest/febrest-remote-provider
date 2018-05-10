@@ -4,7 +4,7 @@ var { version } = require('./../package');
 
 var buildTypes = ['dev','prod'];
 
-var entry = 'src/index.js'
+var entry = 'index.js'
 var name = 'FebrestRemoteProvider';
 var output = 'dist'
 async function build(){
